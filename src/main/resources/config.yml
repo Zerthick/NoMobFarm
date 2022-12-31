@@ -1,0 +1,6 @@
+# Whether to prevent mobs from spawners from generating exp orbs
+preventSpawnerExp: true
+# Whether to prevent mobs from spawners from generating item drops
+preventSpawnerDrops: true
+# Whether to prevent all mobs from dropping items and exp if not killed by a player
+dropRule: true

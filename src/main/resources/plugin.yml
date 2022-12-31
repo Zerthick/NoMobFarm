@@ -1,0 +1,7 @@
+name: NoMobFarm
+version: '${version}'
+main: io.github.zerthick.nomobfarm.NoMobFarm
+api-version: 1.19
+authors: [ Zerthick ]
+description: A simple paper plugin to prevent spawner mob grinding.
+website: https://github.com/Zerthick/NoMobFarm
