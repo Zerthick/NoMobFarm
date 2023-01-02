@@ -9,9 +9,9 @@ public class ConfigurationSettings {
     public final boolean dropRule;
 
     public ConfigurationSettings(final FileConfiguration config) {
-        this.preventSpawnerExp = config.getBoolean("preventSpawnerExp");
-        this.preventSpawnerDrops = config.getBoolean("preventSpawnerDrops");
-        this.dropRule = config.getBoolean("dropRule");
+        preventSpawnerExp = config.getBoolean("preventSpawnerExp");
+        preventSpawnerDrops = config.getBoolean("preventSpawnerDrops");
+        dropRule = config.getBoolean("dropRule");
     }
 
 }
