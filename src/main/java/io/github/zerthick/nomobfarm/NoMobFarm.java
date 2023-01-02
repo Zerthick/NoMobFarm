@@ -54,8 +54,8 @@ public final class NoMobFarm extends JavaPlugin implements Listener {
                 }
             }
 
-            // If the entity was not killed by a player
-            if (configurationSettings.dropRule && entity.getKiller() == null) {
+            // If the entity was not killed by a player, skip armor stands
+            if (configurationSettings.dropRule && entity.getType() != EntityType.ARMOR_STAND && entity.getKiller() == null) {
                 event.getDrops().clear();  //clear the drops
                 event.setDroppedExp(0);  //clear the exp
             }
