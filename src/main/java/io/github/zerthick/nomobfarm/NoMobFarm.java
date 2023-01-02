@@ -1,6 +1,5 @@
 package io.github.zerthick.nomobfarm;
 
-import org.bukkit.Bukkit;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.EventHandler;
@@ -17,7 +16,7 @@ import java.util.logging.Logger;
 
 public final class NoMobFarm extends JavaPlugin implements Listener {
 
-    private static final Logger logger = Bukkit.getLogger();
+    private final Logger logger = getLogger();
     private Set<UUID> spawnerSet;
     private ConfigurationSettings configurationSettings;
 
